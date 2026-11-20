@@ -28,3 +28,6 @@ Thumbs.db
 
 # Playwright MCP snapshots
 .playwright-mcp/
+
+# Local SSH keys
+.ssh/
