@@ -1,0 +1,23 @@
+{
+  "mode": "layout",
+  "original": {
+    "width": 1014,
+    "height": 829
+  },
+  "clone": {
+    "width": 1014,
+    "height": 829
+  },
+  "compared_at": {
+    "width": 480,
+    "height": 392
+  },
+  "height_delta_pct": 0.0,
+  "score": 100.0,
+  "verdict": "matches",
+  "regions": [],
+  "files": {
+    "original": "replica/clone-screens/S03.png",
+    "clone": "replica/clone-screens/S03.png"
+  }
+}

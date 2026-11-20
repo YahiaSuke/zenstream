@@ -1,0 +1,36 @@
+feature,area,priority,original,clone,notes
+Landing Page with marketing hero and FAQ accordion,landing,must,yes,yes,Clean-room copy with FAQ accordion and email capture
+Email signup and password authentication,auth,must,yes,yes,Floating inputs with Remember Me and validation
+Multi-profile switching (up to 5 profiles per account),profiles,must,yes,yes,Avatar grid with 5 profiles max enforcement
+Kids profile toggle with content maturity restrictions,profiles,should,yes,yes,Dedicated kids catalog filtering and badge
+Profile avatar customization and edit name,profiles,should,yes,yes,Editable profile name and avatar selection
+Home catalog dashboard with billboard hero trailer,browse,must,yes,yes,Billboard hero with play and details CTA
+Category carousels with horizontal slider and chevrons,browse,must,yes,yes,Smooth sliding chevrons with responsive scroll
+Card hover expansion preview with audio/video teaser,browse,should,yes,yes,Scale-up hover preview card with meta pills
+Modal detailed view for movies and TV shows,details,must,yes,yes,16:9 backdrop preview with synopsis and cast
+Season and episode selector for TV series,details,must,yes,yes,Season 1 episode accordion with thumbnails and duration
+"More Like This" content recommendation grid,recommendations,should,yes,yes,Contextual similar title cards in modal
+Custom HTML5 video player with Netflix dark overlay,player,must,yes,yes,Full-screen video player with transport controls
+Scrub bar with time tooltip and position preview,player,should,yes,yes,Draggable progress bar with timestamp readout
+Skip Intro / Skip Recap button at configured timestamps,player,should,yes,yes,Appears between introStart and introEnd cue points
+Auto-play next episode with countdown prompt,player,should,yes,yes,Chronological episode transition
+Audio and subtitle track selection drawer,player,should,yes,yes,Subtitle and audio language drawer toggle
+Playback speed controller (0.5x to 1.5x),player,could,yes,yes,Integrated video playback rate control
+Continue Watching row tracking playback position resume,personalization,must,yes,yes,Progress bar display and 10s heartbeat sync
+My List (Watchlist) add and remove functionality,personalization,must,yes,yes,Toggle button with instant UI update
+Thumbs Up / Thumbs Down / Double Thumbs rating,personalization,should,yes,yes,Reaction submission with active indicator
+Real-time debounced search by title cast and genre,search,must,yes,yes,Debounced search bar with empty state recommendations
+Genre-specific catalog browsing (TV Shows / Movies / Genres),browse,must,yes,yes,Filtered views for TV Shows and Movies
+Responsive web interface (desktop tablet and mobile),ux,must,yes,yes,Tested at 390px mobile and 1440px desktop
+Account settings and subscription plan overview,account,should,yes,yes,Membership details and profile controls summary
+Viewing activity history with hide item option,account,could,yes,yes,Activity log with hide capability
+Multi-language UI localization toggle,ux,could,yes,yes,Language selector in profile and footer
+Hollywood studio DRM-protected content library (Widevine L1),content,could,yes,skip,Proprietary copyrighted catalogue. Replaced with open-source and Creative Commons media.
+Global edge Open Connect telecom appliance CDN,infrastructure,could,yes,skip,Proprietary global hardware ISP caching network.
+Complex offline video download encryption for native devices,playback,could,yes,skip,Requires native DRM containers and OS-level secure storage.
+Instant Autoplay Mute Switch on Navbar,browse,must,no,yes,Fix for loud autoplay previews complaint
+Direct Remove from Continue Watching on Card,personalization,must,no,yes,One-click removal without digging through account settings
+Permanent Hide Title from Recommendations,personalization,should,no,yes,Users can hide unwanted titles from all category rows
+Respectful End Credits Mode (No 5s Cutoff),player,should,no,yes,Allows end credits and music score to play naturally
+Dialogue Speech Normalizer (Night Mode),player,should,no,yes,Dynamic range compressor boosting quiet dialogue
+True Anywhere Simultaneous Streams (No Household Geofencing),auth,must,no,yes,Stream portability without IP or geographic locks

@@ -1,0 +1,222 @@
+{
+  "users": [
+    {
+      "id": "u-001",
+      "email": "user@streamflow.local",
+      "plan": "premium",
+      "createdAt": "2026-01-15T10:00:00Z"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "p-001",
+      "userId": "u-001",
+      "name": "Yahia",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&h=200&q=80",
+      "isKid": false,
+      "language": "en",
+      "autoplayNext": true,
+      "autoplayPreviews": true
+    },
+    {
+      "id": "p-002",
+      "userId": "u-001",
+      "name": "Sarah",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=200&h=200&q=80",
+      "isKid": false,
+      "language": "en",
+      "autoplayNext": true,
+      "autoplayPreviews": true
+    },
+    {
+      "id": "p-003",
+      "userId": "u-001",
+      "name": "Kids Club",
+      "avatar": "https://images.unsplash.com/photo-1566492031773-4f4e44671857?auto=format&fit=crop&w=200&h=200&q=80",
+      "isKid": true,
+      "language": "en",
+      "autoplayNext": true,
+      "autoplayPreviews": false
+    }
+  ],
+  "genres": [
+    { "id": "g-action", "name": "Action & Adventure", "slug": "action" },
+    { "id": "g-scifi", "name": "Sci-Fi & Fantasy", "slug": "sci-fi" },
+    { "id": "g-drama", "name": "Dramas", "slug": "drama" },
+    { "id": "g-comedy", "name": "Comedies", "slug": "comedy" },
+    { "id": "g-doc", "name": "Documentaries", "slug": "documentaries" },
+    { "id": "g-kids", "name": "Kids & Family", "slug": "kids" }
+  ],
+  "titles": [
+    {
+      "id": "t-001",
+      "title": "Cosmic Horizon",
+      "slug": "cosmic-horizon",
+      "type": "series",
+      "synopsis": "When a deep space exploration crew intercepts an ancient beacon near the Kuiper belt, they uncover a forgotten civilization whose signals alter human consciousness.",
+      "releaseYear": 2025,
+      "maturityRating": "16+",
+      "matchScore": 99,
+      "isFeatured": true,
+      "genreIds": ["g-scifi", "g-drama"],
+      "backdropUrl": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=1920&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=640&q=80",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "totalSeasons": 2,
+      "cast": ["Elena Rostova", "Marcus Vance", "Kaelen Chen"],
+      "seasons": [
+        {
+          "seasonNumber": 1,
+          "title": "Season 1: The Signal",
+          "episodes": [
+            {
+              "id": "ep-101",
+              "episodeNumber": 1,
+              "title": "Echoes in the Dark",
+              "synopsis": "The Odyssey survey ship detects rhythmic pulses radiating from a dormant asteroid.",
+              "duration": "54m",
+              "durationSeconds": 3240,
+              "thumbnailUrl": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=400&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+              "introStartSec": 5,
+              "introEndSec": 20,
+              "creditsStartSec": 3100
+            },
+            {
+              "id": "ep-102",
+              "episodeNumber": 2,
+              "title": "Quantum Drift",
+              "synopsis": "Navigation systems experience temporal refraction as the crew attempts retrieval.",
+              "duration": "48m",
+              "durationSeconds": 2880,
+              "thumbnailUrl": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=400&q=80",
+              "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+              "introStartSec": 6,
+              "introEndSec": 22,
+              "creditsStartSec": 2750
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "t-002",
+      "title": "Neon Vanguard",
+      "slug": "neon-vanguard",
+      "type": "movie",
+      "synopsis": "In a rain-drenched megacity running on biometric crypto-credits, a rogue courier uncovers a conspiracy that threatens to erase the digital identities of millions.",
+      "releaseYear": 2026,
+      "maturityRating": "TV-MA",
+      "matchScore": 96,
+      "isFeatured": false,
+      "genreIds": ["g-action", "g-scifi"],
+      "backdropUrl": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=1920&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=640&q=80",
+      "trailerUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
+      "duration": "1h 52m",
+      "durationSeconds": 6720,
+      "cast": ["Daria Cole", "Jax Kincaid", "Takeshi Sato"],
+      "introStartSec": 10,
+      "introEndSec": 30
+    },
+    {
+      "id": "t-003",
+      "title": "Midnight Protocol",
+      "slug": "midnight-protocol",
+      "type": "movie",
+      "synopsis": "An elite cyber forensics unit races against a 24-hour deadline to prevent an autonomous orbital defense satellite from executing a catastrophic launch override.",
+      "releaseYear": 2025,
+      "maturityRating": "16+",
+      "matchScore": 94,
+      "isFeatured": false,
+      "genreIds": ["g-action", "g-drama"],
+      "backdropUrl": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=1920&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=640&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "duration": "2h 04m",
+      "durationSeconds": 7440,
+      "cast": ["Sarah Jenkins", "Hassan Tariq", "Viktor Novak"],
+      "introStartSec": 8,
+      "introEndSec": 24
+    },
+    {
+      "id": "t-004",
+      "title": "Silicon Valley Secrets",
+      "slug": "silicon-valley-secrets",
+      "type": "series",
+      "synopsis": "Behind the gleaming glass atriums of top artificial intelligence labs, four rival engineers navigate corporate espionage, patent warfare, and ethical breakdowns.",
+      "releaseYear": 2024,
+      "maturityRating": "13+",
+      "matchScore": 91,
+      "isFeatured": false,
+      "genreIds": ["g-drama", "g-comedy"],
+      "backdropUrl": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1920&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=640&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4",
+      "totalSeasons": 3,
+      "cast": ["Liam Becker", "Aria Patel", "Chris O'Connor"]
+    },
+    {
+      "id": "t-005",
+      "title": "Wildlife Chronicles: Ocean Depths",
+      "slug": "wildlife-chronicles-ocean-depths",
+      "type": "movie",
+      "synopsis": "Witness the luminous creatures of the Mariana Trench filmed with groundbreaking high-sensitivity deep-sea submersible optical systems.",
+      "releaseYear": 2024,
+      "maturityRating": "ALL",
+      "matchScore": 97,
+      "isFeatured": false,
+      "genreIds": ["g-doc", "g-kids"],
+      "backdropUrl": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1920&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1682687220063-4742bd7fd538?auto=format&fit=crop&w=640&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4",
+      "duration": "1h 32m",
+      "durationSeconds": 5520,
+      "cast": ["Dr. Sylvia Earle", "Narrated by David Attenborough"]
+    },
+    {
+      "id": "t-006",
+      "title": "The Forest Sprite",
+      "slug": "the-forest-sprite",
+      "type": "series",
+      "synopsis": "A spirited woodland creature and her loyal badger companion embark on magical adventures to protect the whispering ancient groves from seasonal storms.",
+      "releaseYear": 2025,
+      "maturityRating": "7+",
+      "matchScore": 98,
+      "isFeatured": false,
+      "genreIds": ["g-kids", "g-comedy"],
+      "backdropUrl": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80",
+      "thumbnailUrl": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=640&q=80",
+      "videoUrl": "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4",
+      "totalSeasons": 2,
+      "cast": ["Pip the Sprite", "Barnaby Badger"]
+    }
+  ],
+  "continueWatching": {
+    "p-001": [
+      {
+        "titleId": "t-001",
+        "episodeId": "ep-101",
+        "progressSeconds": 1450,
+        "durationSeconds": 3240,
+        "progressPercent": 45
+      },
+      {
+        "titleId": "t-002",
+        "progressSeconds": 5040,
+        "durationSeconds": 6720,
+        "progressPercent": 75
+      }
+    ]
+  },
+  "watchlist": {
+    "p-001": ["t-001", "t-003", "t-005"]
+  },
+  "ratings": {
+    "p-001": {
+      "t-001": "love",
+      "t-002": "like"
+    }
+  }
+}

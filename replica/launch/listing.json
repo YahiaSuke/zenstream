@@ -1,0 +1,21 @@
+{
+  "avoid": [
+    "Netflix",
+    "Netflix Inc",
+    "Netflix Originals",
+    "Open Connect"
+  ],
+  "app_store": {
+    "name": "ZenStream: Calm Cinema",
+    "subtitle": "Stream movies without noise",
+    "promotional_text": "Stream hundreds of acclaimed films peacefully. Zero blaring autoplay trailers, zero intrusive popups over end credits, and full respect for your evening.",
+    "description": "ZenStream is the streaming platform for viewers who value peace over noise.\n\nMost video services treat your screen like an attention-seeking casino: hovering over a title launches blaring audio, and end credits get cut off by aggressive countdown timers. ZenStream does the opposite.\n\nWhat makes ZenStream different:\n- Silent Browsing: No video or audio trailer plays unless you click play.\n- Respect for the Film: End credits roll naturally with the composer's complete score. No countdown popup.\n- Dialogue Clarity Boost: Intelligent speech normalization clarifies whisper dialogue and softens loud sound effects.\n- Hide What You Dislike: Click Hide on any title to permanently remove it from your recommendations.\n- True Stream Portability: Watch simultaneously on any device anywhere in the world. No household geofencing locks.\n\nSimple, transparent subscription pricing. 14-day free trial on all plans.",
+    "keywords": "films,series,shows,player,video,subtitles,tv,indie,hd",
+    "whats_new": "Welcome to ZenStream. Introducing calm browsing with zero uninvited video autoplays and dialogue speech boost."
+  },
+  "google_play": {
+    "title": "ZenStream: Calm Cinema",
+    "short_description": "Stream films and series peacefully with zero blaring previews or credit popups.",
+    "full_description": "ZenStream is the streaming platform for viewers who value peace over noise.\n\nMost video services treat your screen like an attention-seeking casino: hovering over a title launches blaring audio, and end credits get cut off by aggressive countdown timers. ZenStream does the opposite.\n\nWhat makes ZenStream different:\n- Silent Browsing: No video or audio trailer plays unless you click play.\n- Respect for the Film: End credits roll naturally with the composer's complete score. No countdown popup.\n- Dialogue Clarity Boost: Intelligent speech normalization clarifies whisper dialogue and softens loud sound effects.\n- Hide What You Dislike: Click Hide on any title to permanently remove it from your recommendations.\n- True Stream Portability: Watch simultaneously on any device anywhere in the world. No household geofencing locks.\n\nSimple, transparent subscription pricing. 14-day free trial on all plans."
+  }
+}

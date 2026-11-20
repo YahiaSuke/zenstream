@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Clone - Design System Showcase</title>
+  <link rel="stylesheet" href="tokens.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-color: var(--color-bg);
+      color: var(--color-text);
+      font-family: var(--font-sans);
+    }
+  </style>
+</head>
+<body class="p-8 max-w-6xl mx-auto space-y-12">
+  <header class="border-b border-neutral-800 pb-6">
+    <div class="flex items-center gap-3">
+      <div class="w-8 h-8 rounded bg-[#e50914] flex items-center justify-center font-black text-white">N</div>
+      <h1 class="text-3xl font-black tracking-tight text-white">Design Primitives Showcase</h1>
+    </div>
+    <p class="text-neutral-400 mt-2">Netflix web design tokens, typography, buttons, inputs, cards, and video player primitives.</p>
+  </header>
+
+  <!-- Palette Section -->
+  <section class="space-y-4">
+    <h2 class="text-xl font-bold tracking-tight text-white">1. Color Palette Tokens</h2>
+    <div class="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-3 text-xs">
+      <div class="p-4 rounded border border-neutral-800 bg-[#141414] text-white">
+        <div class="font-bold">bg</div>
+        <div class="text-neutral-400">#141414</div>
+      </div>
+      <div class="p-4 rounded border border-neutral-800 bg-[#1f1f1f] text-white">
+        <div class="font-bold">surface</div>
+        <div class="text-neutral-400">#1f1f1f</div>
+      </div>
+      <div class="p-4 rounded border border-neutral-800 bg-[#2b2b2b] text-white">
+        <div class="font-bold">surface-elevated</div>
+        <div class="text-neutral-400">#2b2b2b</div>
+      </div>
+      <div class="p-4 rounded border border-neutral-800 bg-[#e50914] text-white">
+        <div class="font-bold">accent</div>
+        <div>#e50914</div>
+      </div>
+      <div class="p-4 rounded border border-neutral-800 bg-[#1f1f1f] text-[#4ade80]">
+        <div class="font-bold">success</div>
+        <div>#4ade80</div>
+      </div>
+      <div class="p-4 rounded border border-neutral-800 bg-[#1f1f1f] text-[#f87171]">
+        <div class="font-bold">danger</div>
+        <div>#f87171</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Buttons Section -->
+  <section class="space-y-4">
+    <h2 class="text-xl font-bold tracking-tight text-white">2. Buttons (Play CTA, More Info, Icons)</h2>
+    <div class="flex flex-wrap items-center gap-4 bg-[#1f1f1f] p-6 rounded-md border border-neutral-800">
+      <!-- Primary Play Button -->
+      <button class="h-10 px-6 rounded-sm bg-white text-black font-bold flex items-center gap-2 hover:bg-neutral-200 transition-transform active:scale-95 shadow-md">
+        <span>▶</span> Play
+      </button>
+
+      <!-- Secondary More Info Button -->
+      <button class="h-10 px-6 rounded-sm bg-neutral-600/70 text-white font-bold flex items-center gap-2 hover:bg-neutral-600/90 transition-transform active:scale-95 backdrop-blur-sm">
+        <span>ℹ</span> More Info
+      </button>
+
+      <!-- Accent Button -->
+      <button class="h-10 px-6 rounded-sm bg-[#e50914] text-white font-bold hover:bg-[#b80710] transition-colors active:scale-95">
+        Get Started &gt;
+      </button>
+
+      <!-- Icon Buttons -->
+      <button class="w-10 h-10 rounded-full border border-neutral-500 bg-neutral-900/60 text-white flex items-center justify-center hover:border-white transition-colors">
+        ＋
+      </button>
+      <button class="w-10 h-10 rounded-full border border-neutral-500 bg-neutral-900/60 text-white flex items-center justify-center hover:border-white transition-colors">
+        👍
+      </button>
+      <button class="w-10 h-10 rounded-full border border-neutral-500 bg-neutral-900/60 text-white flex items-center justify-center hover:border-white transition-colors">
+        🔇
+      </button>
+    </div>
+  </section>
+
+  <!-- Inputs & Badges Section -->
+  <section class="space-y-4">
+    <h2 class="text-xl font-bold tracking-tight text-white">3. Floating Label Inputs & Content Badges</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-[#1f1f1f] p-6 rounded-md border border-neutral-800">
+      <div class="space-y-3">
+        <div class="relative">
+          <input type="text" id="email" placeholder="Email address" value="member@example.com" class="w-full h-14 pt-4 px-4 text-base text-white bg-[#141414] border border-neutral-700 rounded-sm focus:border-white focus:outline-none" />
+          <label for="email" class="absolute left-4 top-2 text-xs text-neutral-400 font-medium">Email address</label>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-3">
+        <span class="px-2 py-0.5 text-xs font-black bg-[#e50914] text-white rounded-sm">TOP 10</span>
+        <span class="px-2 py-0.5 text-xs font-bold text-neutral-300 border border-neutral-500 rounded-xs">16+</span>
+        <span class="px-1.5 py-0.5 text-[10px] font-bold text-neutral-400 border border-neutral-600 rounded-xs">ULTRA HD 4K</span>
+        <span class="px-1.5 py-0.5 text-[10px] font-bold text-neutral-400 border border-neutral-600 rounded-xs">5.1 AUDIO</span>
+        <span class="text-xs font-bold text-[#4ade80]">98% Match</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Title Card & Profile Section -->
+  <section class="space-y-4">
+    <h2 class="text-xl font-bold tracking-tight text-white">4. Movie Cards & Profile Avatars</h2>
+    <div class="flex flex-wrap items-center gap-8 bg-[#1f1f1f] p-6 rounded-md border border-neutral-800">
+      <!-- Title Card Preview -->
+      <div class="w-64 aspect-video rounded-sm overflow-hidden relative border border-neutral-800 bg-[#141414] shadow-lg group cursor-pointer">
+        <div class="w-full h-full bg-gradient-to-br from-neutral-800 to-neutral-900 flex items-center justify-center text-neutral-500 font-bold text-sm">
+          [16:9 Trailer Backdrop]
+        </div>
+        <div class="absolute top-2 left-2 px-1.5 py-0.5 bg-[#e50914] text-white text-[10px] font-black rounded-xs">#1 IN MOVIES</div>
+        <div class="absolute bottom-0 left-0 right-0 h-1 bg-neutral-700">
+          <div class="h-full bg-[#e50914] w-2/3"></div>
+        </div>
+      </div>
+
+      <!-- Profile Avatar Preview -->
+      <div class="flex items-center gap-6">
+        <div class="flex flex-col items-center gap-2 group cursor-pointer">
+          <div class="w-20 h-20 rounded-md bg-blue-600 flex items-center justify-center text-white text-2xl font-bold border-2 border-transparent group-hover:border-white transition-all">
+            😊
+          </div>
+          <span class="text-sm text-neutral-400 group-hover:text-white">Alex</span>
+        </div>
+        <div class="flex flex-col items-center gap-2 group cursor-pointer">
+          <div class="w-20 h-20 rounded-md bg-yellow-500 flex items-center justify-center text-white text-2xl font-bold border-2 border-transparent group-hover:border-white transition-all relative">
+            🎈
+            <span class="absolute bottom-1 right-1 text-[8px] bg-[#e50914] text-white font-black px-1 rounded-xs">KIDS</span>
+          </div>
+          <span class="text-sm text-neutral-400 group-hover:text-white">Kids</span>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

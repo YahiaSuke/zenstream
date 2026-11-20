@@ -1,0 +1,19 @@
+{
+  "name": "ZenStream",
+  "avoid": [
+    "Netflix",
+    "Netflix Inc",
+    "Netflix Originals",
+    "Open Connect"
+  ],
+  "domains": [
+    "netflix.com",
+    "netflixtechblog.com",
+    "help.netflix.com"
+  ],
+  "colors": [
+    "#e50914",
+    "#b80710",
+    "#db0000"
+  ]
+}

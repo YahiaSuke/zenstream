@@ -1,0 +1,15 @@
+{
+  "name": "zenstream-web",
+  "version": "1.0.0",
+  "description": "Serene and noise-free streaming platform with full respect for the film",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/integration.test.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tailwindcss": "^3.4.0"
+  }
+}
